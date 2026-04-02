@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/workstations
+Content-Type: application/json
+
+{
+  "stationName": "Propulsion Cannon",
+  "status": "Available",
+  "lab": {
+    "labId": 7
+  }
+}

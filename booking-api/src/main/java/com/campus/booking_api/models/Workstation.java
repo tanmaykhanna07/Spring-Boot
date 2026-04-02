@@ -42,4 +42,11 @@ public class Workstation {
     public void setStatus(String status){
         this.status = status;
     }
+
+    public Lab getLab(){
+        return lab;
+    }
+    public void setLab(Lab lab){
+        this.lab = lab;
+    }
 }
