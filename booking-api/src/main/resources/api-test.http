@@ -1,10 +1,3 @@
-POST http://localhost:8080/api/workstations
-Content-Type: application/json
+DELETE http://localhost:8080/api/workstations/1
 
-{
-  "stationName": "Propulsion Cannon",
-  "status": "Available",
-  "lab": {
-    "labId": 7
-  }
-}
+

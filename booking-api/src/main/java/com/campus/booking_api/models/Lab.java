@@ -12,7 +12,7 @@ public class Lab {
     @Column(name = "lab_name", nullable = false)
     private String labName;
 
-    @Column(nullable = false)
+    @Column(name = "building", nullable = false)
     private String building;
 
 
